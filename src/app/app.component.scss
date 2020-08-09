@@ -1,0 +1,14 @@
+$toolbar-height: 64px;
+
+.app-container {
+  height: calc(100vh - #{$toolbar-height});
+}
+
+.menu-spacer {
+  flex: 1 1 auto;
+}
+
+.app-toolbar {
+  min-height: $toolbar-height;
+  max-height: $toolbar-height;
+}
